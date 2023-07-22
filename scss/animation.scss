@@ -1,0 +1,79 @@
+@keyframes moves-left-to-right {
+    from {
+     position: absolute;   
+     right: -1000px;
+     overflow: hidden;
+     transform: rotate(-360deg);
+    }
+
+
+    to {
+        position: absolute;
+        right: 230px;
+        transform: rotate(360deg);
+    }
+}
+
+
+@keyframes moves-left-to-right-0 {
+    from {
+     position: absolute;
+     left: -200px;
+     overflow: hidden;
+     transform: rotate(-360deg);
+    }
+
+
+    to {
+        position: absolute;
+        left: 75px;
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes initial-animation {
+    from {
+     opacity: 0;
+    }
+
+    to {
+     opacity: 1;
+    }
+}
+
+
+.plate img {
+    animation: moves-left-to-right 2.5s ease-in-out;
+}
+
+.about-us .plate-2 img {
+    animation: moves-left-to-right-0 ease-in-out 4.5s;
+}
+
+.informacao-central {
+    animation:  initial-animation ease-in 2.5s;
+}
+
+.about-us .informacao-about-us{
+    animation:  initial-animation ease-in 2.5s;
+}
+
+body{
+    animation:  initial-animation ease-in 1s; 
+}
+
+nav {
+    animation:  initial-animation ease-in 2s; 
+}
+
+.testimonials {
+    animation:  initial-animation ease-in 4s; 
+}
+
+.card {
+    animation:  initial-animation ease-in 2.5s; 
+}
+
+.menu-card {
+    animation:  initial-animation ease-in 7s;
+}

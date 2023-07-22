@@ -1,0 +1,120 @@
+@-webkit-keyframes moves-left-to-right {
+  from {
+    position: absolute;
+    right: -1000px;
+    overflow: hidden;
+    -webkit-transform: rotate(-360deg);
+            transform: rotate(-360deg);
+  }
+  to {
+    position: absolute;
+    right: 230px;
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+@keyframes moves-left-to-right {
+  from {
+    position: absolute;
+    right: -1000px;
+    overflow: hidden;
+    -webkit-transform: rotate(-360deg);
+            transform: rotate(-360deg);
+  }
+  to {
+    position: absolute;
+    right: 230px;
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes moves-left-to-right-0 {
+  from {
+    position: absolute;
+    left: -200px;
+    overflow: hidden;
+    -webkit-transform: rotate(-360deg);
+            transform: rotate(-360deg);
+  }
+  to {
+    position: absolute;
+    left: 75px;
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+@keyframes moves-left-to-right-0 {
+  from {
+    position: absolute;
+    left: -200px;
+    overflow: hidden;
+    -webkit-transform: rotate(-360deg);
+            transform: rotate(-360deg);
+  }
+  to {
+    position: absolute;
+    left: 75px;
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes initial-animation {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes initial-animation {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.plate img {
+  -webkit-animation: moves-left-to-right 2.5s ease-in-out;
+          animation: moves-left-to-right 2.5s ease-in-out;
+}
+
+.about-us .plate-2 img {
+  -webkit-animation: moves-left-to-right-0 ease-in-out 4.5s;
+          animation: moves-left-to-right-0 ease-in-out 4.5s;
+}
+
+.informacao-central {
+  -webkit-animation: initial-animation ease-in 2.5s;
+          animation: initial-animation ease-in 2.5s;
+}
+
+.about-us .informacao-about-us {
+  -webkit-animation: initial-animation ease-in 2.5s;
+          animation: initial-animation ease-in 2.5s;
+}
+
+body {
+  -webkit-animation: initial-animation ease-in 1s;
+          animation: initial-animation ease-in 1s;
+}
+
+nav {
+  -webkit-animation: initial-animation ease-in 2s;
+          animation: initial-animation ease-in 2s;
+}
+
+.testimonials {
+  -webkit-animation: initial-animation ease-in 4s;
+          animation: initial-animation ease-in 4s;
+}
+
+.card {
+  -webkit-animation: initial-animation ease-in 2.5s;
+          animation: initial-animation ease-in 2.5s;
+}
+
+.menu-card {
+  -webkit-animation: initial-animation ease-in 7s;
+          animation: initial-animation ease-in 7s;
+}
